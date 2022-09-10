@@ -6,7 +6,7 @@ out_of_guesses= False
 
 while guess != secret_word and not(out_of_guesses):
     if guess_count < guess_limit:
-        # print("Guess Count: " + guess_count )
+        print("Guess Count: " + str(guess_count)+"/3" )
         guess = input("Enter Guess: ")
         guess_count += 1
     else: 
